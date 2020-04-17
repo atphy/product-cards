@@ -1,3 +1,77 @@
 body{
-  background-color: aquamarine;
+  background-color: purple;
+}
+
+footer{
+  margin: 10px;
+}
+
+.site-title {
+  background-image: linear-gradient(blue,pink);
+  color: yellow;
+  margin: 0;
+  text-align: center;
+}
+
+.slogan{
+  background-image: linear-gradient(pink,blue);
+  color: yellow;
+  margin: 0;
+  text-align: center;
+}
+
+.product-card {
+  display: flex;
+  flex-wrap: wrap;
+  float: left;
+  justify-content: center;
+  border: solid darkblue;
+  margin: 60px;
+  width: 300px;
+  min-height: 950px;
+  box-shadow: 2px 2px black;
+}
+
+.product-card img {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  justify-content: center;
+}
+
+.product-header {
+  width: 300px;
+  border: solid lightblue;
+  text-align: center;
+  background-color: pink;
+}
+
+.productdescription {
+  text-align: justify;
+  margin: 10px;
+}
+
+.specification-header{
+  margin: 5px;
+}
+
+.pricing-header{
+  margin: 5px;
+}
+
+.dimensions{
+  font-weight: bold;
+  margin: 10px;
+}
+
+.pricing{
+  font-weight: bold;
+  margin: 10px;
+}
+
+.availability{
+  background-color: darkgrey;
+  color: yellow;
+  border: solid black;
+  padding: 3px;
 }
