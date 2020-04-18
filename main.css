@@ -1,5 +1,6 @@
 body{
   background-color: purple;
+  font-family: "Acme";
 }
 
 footer{
@@ -20,16 +21,20 @@ footer{
   text-align: center;
 }
 
-.product-card {
+.cards {
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
   float: left;
-  justify-content: center;
+}
+
+.product-card {
   border: solid darkblue;
   margin: 60px;
   width: 300px;
   min-height: 950px;
   box-shadow: 2px 2px black;
+  background-color: pink;
 }
 
 .product-card img {
@@ -41,6 +46,8 @@ footer{
 
 .product-header {
   width: 300px;
+  max-height: 150px;
+  padding: 0;
   border: solid lightblue;
   text-align: center;
   background-color: pink;
@@ -74,4 +81,11 @@ footer{
   color: yellow;
   border: solid black;
   padding: 3px;
+}
+
+.out-of-stock{
+  position: absolute;
+  z-index: 2;
+  opacity: 0.3;
+  object-fit: none;
 }
