@@ -4,7 +4,8 @@ body{
 }
 
 footer{
-  margin: 10px;
+  margin: 0px 15px;
+  font-size: small;
 }
 
 .site-title {
@@ -32,8 +33,9 @@ footer{
   border: solid darkblue;
   margin: 60px;
   width: 300px;
-  min-height: 950px;
-  box-shadow: 2px 2px black;
+  min-height: 875px;
+  box-shadow: 5px 5px black;
+  border-radius: 25px;
   background-color: pink;
 }
 
@@ -45,12 +47,15 @@ footer{
 }
 
 .product-header {
-  width: 300px;
+  width: 298px;
   max-height: 150px;
   padding: 0;
+  margin: 0;
   border: solid lightblue;
   text-align: center;
   background-color: pink;
+  box-shadow: 5px 5px black;
+  border-radius: 25px 25px 0px 0px;
 }
 
 .productdescription {
@@ -59,28 +64,30 @@ footer{
 }
 
 .specification-header{
-  margin: 5px;
+  margin: 0px 5px;
 }
 
 .pricing-header{
-  margin: 5px;
+  margin: 0px 5px;
 }
 
 .dimensions{
+  margin: 0px 15px;
   font-weight: bold;
-  margin: 10px;
 }
 
 .pricing{
+  margin: 0px 15px;
   font-weight: bold;
-  margin: 10px;
 }
 
 .availability{
   background-color: darkgrey;
   color: yellow;
-  border: solid black;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
   padding: 3px;
+  margin: 0px;
 }
 
 .out-of-stock{
