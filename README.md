@@ -7,5 +7,8 @@ https://github.com/nss-nightclass-projects/exercise-vault/blob/master/HTML_CSS_p
 ## Preview
 
 ## View Project
+To view the project, clone it down from Github and run in a terminal!
 
 ## Technologies Used
+HTML
+CSS
