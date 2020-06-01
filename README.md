@@ -5,6 +5,8 @@ Our first independent project was to build product cards for a made-up company w
 https://github.com/nss-nightclass-projects/exercise-vault/blob/master/HTML_CSS_product_cards.md
 
 ## Preview
+![Main View](https://raw.githubusercontent.com/atphy/product-cards/master/screenshots/Austin's%20Ugly%20Fish%20Emporium.png)
+
 
 ## View Project
 To view the project, clone it down from Github and run in a terminal!
